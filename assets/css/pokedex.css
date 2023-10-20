@@ -6,6 +6,10 @@
     list-style: none;
 }
 
+a:link {
+    text-decoration: none;
+}
+
 .normal {
     background-color: #a6a877;
 }
@@ -163,3 +167,4 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
+

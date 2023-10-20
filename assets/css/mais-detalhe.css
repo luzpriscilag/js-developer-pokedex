@@ -1,0 +1,185 @@
+html {
+    width: 100%;
+}
+
+body {
+    background-color: #fff;
+}
+
+#detalhes {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+}
+
+header {
+    width: 100%;
+    height: 16rem; 
+    position: relative;
+}
+
+
+#cabecalho {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    position: absolute;
+    bottom: -4.9rem;
+}
+
+
+.imagem-round {
+    border-radius: 50%;
+    background-color: white;
+    width: 8rem;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+img {
+    max-width:60%;
+}
+
+.nome {
+    text-align: center;
+    color: white;
+    position: relative;
+    font-size: 2.7rem;
+    bottom: -2.1rem;
+    text-transform: capitalize;
+    letter-spacing: 0.2rem;
+}
+
+main {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.infos {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.type, .ability {
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 10px 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px #b9aeae solid;
+    margin-bottom: 2rem;
+    font-size: 24px;
+}
+
+.legenda {
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.atributo {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+    border-radius: 2rem;
+    font-weight: 300;
+}
+
+.voltar {
+    margin-left: 2rem;
+    color: #fff;
+    font-size: 20px;
+    
+}
+
+/* Media queries */
+
+@media screen and (min-width: 600px) and (orientation: portrait)  {
+    .infos {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 15rem 15rem;
+        grid-gap: 3rem;
+    }
+
+    .type, .ability {
+        height: 16rem;
+        width: 16rem;
+    }
+
+    header {
+        width: 100%;
+        height: 25rem; 
+    }
+
+    .imagem-round {
+        width: 12rem;
+        height: 12rem;        
+    }
+
+    .nome {
+        font-size: 4rem;
+        bottom: -5rem;
+    }
+}
+@media screen and (min-width: 932px)  and (orientation: landscape)  {
+    .type, .ability {
+        height: 16rem;
+        width: 16rem;
+    }
+
+    header {
+        width: 100%;
+        height: 25rem; 
+    }
+
+    .imagem-round {
+        width: 12rem;
+        height: 12rem;        
+    }
+
+    .nome {
+        font-size: 4rem;
+        bottom: -5rem;
+    }
+    .infos {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 3rem;
+    }
+
+
+}
+@media screen and (min-width: 1600px) {
+    .infos {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 3rem;
+    }
+
+    .imagem-round {
+        width: 16rem;
+        height: 16rem;  
+        bottom: -5rem;      
+    }
+
+    header {
+        width: 100%;
+        height: 30rem; 
+    }
+
+    .nome {
+        font-size: 5rem;
+        bottom: -8rem;
+        margin-left: 10rem;
+    }
+
+    #detalhes {
+        grid-template-rows: 0.6fr;
+    }
+}

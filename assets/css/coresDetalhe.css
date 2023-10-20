@@ -1,0 +1,163 @@
+/* cores - atributos  */
+.atributo.normal {
+    background-color:  rgba(166, 168, 119, 0.1);
+}
+
+.atributo.grass {
+    background-color:  rgb(119, 200, 80, 0.1);
+}
+
+.atributo.fire {
+    background-color:  rgb(238, 127, 48, 0.1);
+}
+
+.atributo.water {
+    background-color:  rgb(103, 143, 238, 0.1);
+}
+
+.atributo.electric {
+    background-color:  rgba(247, 207, 46, 0.1);
+}
+
+.atributo.ice {
+    background-color:  rgba(152, 213, 215, 0.1);
+}
+
+.atributo.ground {
+    background-color:  rgba(223, 191, 105, 0.1);
+}
+
+.atributo.flying {
+    background-color:  rgba(169, 143, 240, 0.1);
+}
+
+.atributo.poison {
+    background-color:  rgb(160, 64, 160, 0.1);
+}
+
+.atributo.fighting {
+    background-color:  rgba(191, 48, 41, 0.1);
+}
+
+.atributo.psychic {
+    background-color:  rgba(246, 86, 135, 0.1);
+}
+
+.atributo.dark {
+    background-color:  rgba(114, 88, 71, 0.1);
+}
+
+.atributo.rock {
+    background-color:  rgba(184, 161, 55, 0.1);
+}
+
+.atributo.bug {
+    background-color:  rgba(168, 183, 32, 0.1);
+}
+
+.atributo.ghost {
+    background-color:  rgba(110, 88, 150, 0.1);
+}
+
+.atributo.steel {
+    background-color:  rgba(185, 183, 207, 0.1);
+}
+
+.atributo.dragon {
+    background-color:  rgba(111, 56, 246, 0.1);
+}
+
+.atributo.fairy {
+    background-color:  rgba(249, 174, 199, 0.1);
+}
+
+/* Bordas */
+.normal {
+    color:  #a6a877;    
+    border-color:  #a6a877;
+}
+
+.grass {
+    color:  #77c850;
+    border-color:  #77c850;
+}
+
+.fire {
+    color:  #ee7f30;
+    border-color:  #ee7f30;
+}
+
+.water {
+    color:  #678fee;
+    border-color:  #678fee;
+}
+
+.electric {
+    color:  #f7cf2e;
+    border-color:  #f7cf2e;
+}
+
+.ice {
+    color:  #98d5d7;
+    border-color:  #98d5d7;
+}
+
+.ground {
+    color:  #dfbf69;
+    border-color:  #dfbf69;
+}
+
+.flying {
+    color:  #a98ff0;
+    border-color:  #a98ff0;
+}
+
+.poison {
+    color:  #a040a0;
+    border-color:  #a040a0;
+}
+
+.fighting {
+    color:  #bf3029;
+    border-color:  #bf3029;
+}
+
+.psychic {
+    color:  #f65687;
+    border-color:  #f65687;
+}
+
+.dark {
+    color:  #725847;
+    border-color:  #725847;
+}
+
+.rock {
+    color:  #b8a137;
+    border-color:  #b8a137;
+}
+
+.bug {
+    color:  #a8b720;
+    border-color:  #a8b720;
+}
+
+.ghost {
+    color:  #6e5896;
+    border-color:  #6e5896;
+}
+
+.steel {
+    color:  #b9b7cf;
+    border-color:  #b9b7cf;
+}
+
+.dragon {
+    color:  #6f38f6;
+    border-color:  #6f38f6;
+}
+
+.fairy {
+    color:  #f9aec7;
+    border-color:  #f9aec7;
+}
